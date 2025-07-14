@@ -1,0 +1,49 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 1rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #0077cc;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #005fa3;
+}
+
+#eventsContainer .card-text {
+  font-size: 0.95rem;
+}
+
+#eventDetails {
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+form input, form select {
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  #eventDetails {
+    padding: 1.5rem;
+  }
+}
